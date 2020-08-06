@@ -16,7 +16,7 @@ import FactToFace from './components/FactToFace'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       {/* Navbar starts. */}
       <nav>
         <NavBar />

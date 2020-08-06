@@ -44,7 +44,7 @@ const modes = {
 
 export default function ComparisonLayout() {
   return (
-    <div className="container p-0">
+    <div className="container p-0 d-none d-lg-block">
       <div className="row">
         <div className="col">
           <h2 className="p-0 d-inline-block">Comparision</h2>
