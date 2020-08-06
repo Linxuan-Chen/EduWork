@@ -47,8 +47,8 @@ export default function ComparisonLayout() {
     <div className="container p-0 d-none d-lg-block">
       <div className="row">
         <div className="col">
-          <h2 className="p-0 d-inline-block">Comparision</h2>
-          <span className="text-muted pl-2">Self-motivated Study</span>
+          <h2 className="col-sm-12 pl-0 d-inline-block">Comparision</h2>
+          <span className="col-sm-12 text-muted pl-0 d-inline-block pb-3">Self-motivated Study</span>
         </div>
       </div>
       <Comparison modes={modes} />

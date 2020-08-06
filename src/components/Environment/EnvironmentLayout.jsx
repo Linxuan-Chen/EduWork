@@ -7,7 +7,8 @@ export default function EnvironmentLayout() {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="p-0 d-inline-block">Work Environment</h2><span className="pl-2 text-muted">A friendly and comfortable environment</span>
+          <h2 className="col-sm-12 pl-0 d-inline-block">Work Environment</h2>
+          <span className="col-sm-12 text-muted pl-0 d-inline-block pb-3">A friendly and comfortable environment</span>
         </div>
       </div>
       <div className="row">

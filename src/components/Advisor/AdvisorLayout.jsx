@@ -36,8 +36,8 @@ export default function AdvisorLayout() {
     <div className="container p-0">
       <div className="row">
         <div className="col">
-          <h2 className="p-0 d-inline-block">Your advisors</h2>
-          <span className="text-muted pl-2">
+          <h2 className="col-sm-12 pl-0 d-inline-block">Your advisors</h2>
+          <span className="col-sm-12 text-muted pl-0 d-inline-block pb-3">
             Not only the lecturer, but also the development director in the
             current project team
           </span>

@@ -88,8 +88,8 @@ export default function GoalsLayout() {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="p-0 d-inline-block">Internship goals</h2>
-          <span className="pl-2 text-muted">Arrange development positions in the project team</span>
+          <h2 className="col-sm-12 pl-0 d-inline-block">Internship goals</h2>
+          <span className="col-sm-12 text-muted pl-0 d-inline-block pb-3">Arrange development positions in the project team</span>
         </div>
       </div>
       <Goals goalsData={goalsData} />

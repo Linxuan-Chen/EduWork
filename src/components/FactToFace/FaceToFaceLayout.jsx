@@ -109,8 +109,8 @@ export default function FaceToFaceLayout() {
   return (
     <div className="container d-none d-lg-block">
         <div className="col-12 p-0">
-        <h2 className="d-inline-block">Face to Face Teaching</h2>
-        <span className="text-muted pl-2">Only <span className="text-danger">9800￥</span></span>
+        <h2 className="col-sm-12 pl-0 d-inline-block">Face to Face Teaching</h2>
+        <span className="col-sm-12 text-muted pl-0 d-inline-block pb-3">Only <span className="text-danger">9800￥</span></span>
         </div>
       <header className="row text-center">
         <div className="col-2 px-1">
