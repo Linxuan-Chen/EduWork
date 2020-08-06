@@ -1,0 +1,45 @@
+/* button  */
+@mixin button($url) {
+    background: {
+        image   : url($url);
+        position: 0 center;
+        repeat  : no-repeat;
+    };
+    padding-left: 20px !important;
+}
+
+/* Brand logo */
+#brand {
+    max-width: 90px !important;
+}
+
+/* Eduwork nav button */
+.button__eduwork {
+    @include button('./images/hl.png');
+}
+
+/* Imonkey nav button */
+.button__imonkey {
+    @include button('./images/llt.png');
+}
+
+/* eduplayer nav button */
+.button__eduplayer {
+    @include button('./images/zzt.png');
+}
+
+/* Course price text color */
+.course_price {
+    color: red;
+}
+
+/* QR code img resizing */
+#qr_code {
+    max-width: 100px;
+}
+
+.button__wechat {
+    color: #0000EE !important;
+    @include button('./images/wx.jpg');
+    
+}
