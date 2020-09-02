@@ -1,5 +1,5 @@
 # EduWork
-EduWork is a chinese insititution. Its home page is in Chinese, and implemented by bootstrap and jquery. This is a remake version of it. It's responsive, and is implemented by react, react-bootstrap, bootstrap 4 and module scss. It's a page for practising my bootstrap, sass and react skills.
+EduWork is a chinese insititution. Its home page is in Chinese, and is implemented by bootstrap and jquery. This is a remake version of it which is responsive, and is implemented by react, react-bootstrap, bootstrap 4 and module scss. It's a page for practising my bootstrap, sass and react skills.
 
 ## Getting Started
 
