@@ -18,10 +18,10 @@ const lecturerInfomation = {
     'With 8 years of project development experience, I have developed nearly 100 commercial projects and managed over 100 technical teams. I have done various complicated technical support in many listed Internet companies, and led the team to solve the problems of "million-level" project reconstruction, "ten-million-level" project structure and various complex scene business processing and design.',
   ],
   titles: [
-    'Founder of Smart School Cloud System & System Architect & Best-selling Author of "PHP in detail"',
-    "Smart school Cloud Product Manager & Senior Web Developer & EduWork Senior Lecturer",
+    "Founder of Smart School Cloud System",
+    "Senior Web Developer & EduWork Senior Lecturer",
     "Imonkey Technology Director & EduWork Senior Lecturer",
-    "Co-founder of Smart School Cloud & CTO & System Architect",
+    "Co-founder of Smart School Cloud",
   ],
 };
 

@@ -12,11 +12,16 @@ export default function NavBar() {
     <div>
       <Navbar bg="light" expand="lg" className="p-0 pt-1">
         <Navbar.Brand href="/1">
-          <img src="images/logo.png" alt="BrandLogo" className="d-block d-lg-none" id={style.brand}/>
+          <img
+            src="images/logo.png"
+            alt="BrandLogo"
+            className="d-block d-lg-none"
+            id={style.brand}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto" activeKey={false}>
             {/* Eduwork button linked to eduwork home page */}
             <Nav.Link
               href="/#"
@@ -115,7 +120,13 @@ export default function NavBar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Web Course<i><mark className='text-danger'>￥9800</mark></i><del>￥19800</del></span>
+              <span>
+                Web Course
+                <i>
+                  <mark className="text-danger">￥9800</mark>
+                </i>
+                <del>￥19800</del>
+              </span>
             </Nav.Link>
             {/* adv ens */}
           </Nav>
